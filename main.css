@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #ccc;
+}
+
+header {
+    background-color: darkblue;
+    padding: 16px;
+    align-items: center;
+    text-align: center;
+}
+header h1 {
+    font-style: italic;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 48px;
+    background-color: darkblue;
+}
+section {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    max-width: 1024px;
+    width: 70%;
+}
+section h2 {
+    padding-top: 32px;
+    font-style: italic;
+    font-weight: bolder;
+}
+section p {
+    padding-top: 24px;
+}
+section a {
+    text-decoration: none;
+    padding: 8px;
+    color: #fff;
+    font-weight: bolder;
+    background-color: green;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 24px;
+    font-size: 32px;
+}
+.rodape {
+    background-color:darkblue;
+    margin: auto;
+    padding: 18px;
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+    font-style: italic;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+footer h3 {
+    background-color: darkblue;
+}
